@@ -1,0 +1,17 @@
+# PostgreSQL DB Agent - Gereksinimler
+# Python >= 3.10 gereklidir
+
+# LangChain core
+langchain==0.3.25
+langchain-core==0.3.59
+langchain-community==0.3.24
+
+# Ollama entegrasyonu (local LLM)
+langchain-ollama==0.3.2
+ollama==0.4.8
+
+# PostgreSQL sürücüsü
+psycopg2-binary==2.9.10
+
+# Yardımcı
+python-dotenv==1.1.0
